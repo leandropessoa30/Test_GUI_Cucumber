@@ -14,7 +14,7 @@ def clicar_uia_button(obj, desc)
   cont_tempo = 0
   while obj.nil? and cont_tempo < 10
     sleep 0.5
-    cont += 1
+    cont_tempo += 1
   end
   raise "Botão <#{desc}> não foi encontrado." if obj.nil?
   obj.click
