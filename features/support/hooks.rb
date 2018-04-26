@@ -7,6 +7,7 @@ end
 
 Before do |scenario|
     system("start calc.exe")
+    sleep 2
 end
 
 AfterStep do |step|

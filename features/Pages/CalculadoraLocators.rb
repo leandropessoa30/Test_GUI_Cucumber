@@ -9,7 +9,7 @@ class CalculadoraLocators
     end
 
     def tela_result
-        return $win.find_all(control_type: :text)[2]
+        return $win.find(control_type: :text, id: "150")
     end
 
 end
